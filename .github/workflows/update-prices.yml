@@ -3,23 +3,42 @@ on:
   schedule:
     - cron: '*/15 * * * *'   # mỗi 15 phút (có thể trễ vài phút)
   workflow_dispatch:          # cho phép bấm chạy tay
+
 permissions:
   contents: write
+
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
       - uses: actions/setup-node@v4
         with:
-          node-version: 24
-      - run: node scripts/fetch-prices.mjs
+          node-version: 20
+          
+      - name: Cài đặt thư viện
+        # Cài cheerio trực tiếp để parse HTML giá bạc (hoặc chạy npm install nếu bạn có package.json)
+        run: npm install cheerio 
+
+      - name: Lấy Giá Vàng
+        run: node scripts/fetch-prices.mjs
+
+      - name: Lấy Giá Bạc
+        run: node scripts/fetch-silver.mjs
+
       - name: Commit nếu giá thay đổi
         run: |
-          if [ -n "$(git status --porcelain docs/prices.json)" ]; then
+          # Kiểm tra xem có file nào trong thư mục docs bị thay đổi không
+          if [ -n "$(git status --porcelain docs/prices.json docs/silver-prices.json)" ]; then
             git config user.name "price-bot"
             git config user.email "price-bot@users.noreply.github.com"
-            git add docs/prices.json
-            git commit -m "update prices"
+            
+            # Chỉ add những file data
+            git add docs/prices.json docs/silver-prices.json
+            
+            git commit -m "update gold and silver prices"
             git push
+          else
+            echo "Không có sự thay đổi về giá."
           fi
