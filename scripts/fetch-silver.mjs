@@ -28,12 +28,17 @@ async function fetchSilverPrices() {
       if (Array.isArray(json)) results = json;
     } catch (e) {
       const $ = cheerio.load(text);
+      
+      // Duyệt qua từng dòng trong tbody của bảng
       $('table tbody tr').each((index, element) => {
         const tds = $(element).find('td');
-        if (tds.length >= 3) {
+        
+        // Bảng của Phú Quý có 4 cột: Sản phẩm (0), Đơn vị (1), Giá mua vào (2), Giá bán ra (3)
+        if (tds.length >= 4) {
           const san_pham = $(tds[0]).text().trim();
-          const gia_mua = $(tds[1]).text().trim();
-          const gia_ban = $(tds[2]).text().trim();
+          const don_vi = $(tds[1]).text().trim(); // Bỏ qua vì đã hardcode bên dưới hoặc dùng lại
+          const gia_mua = $(tds[2]).text().trim();
+          const gia_ban = $(tds[3]).text().trim();
           
           if (san_pham) {
             results.push({
@@ -48,19 +53,17 @@ async function fetchSilverPrices() {
       });
     }
 
-    // Đảm bảo thư mục docs tồn tại trước khi ghi file
     const outputDir = 'docs';
     if (!fs.existsSync(outputDir)){
         fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    // Xuất ra file docs/silver-prices.json để đồng bộ với file vàng
     fs.writeFileSync(path.join(outputDir, 'silver-prices.json'), JSON.stringify(results, null, 2), 'utf-8');
     console.log('✅ Cập nhật giá bạc thành công:', results.length, 'sản phẩm.');
 
   } catch (error) {
     console.error("❌ Lỗi khi lấy dữ liệu bạc:", error.message);
-    process.exit(1); // Để GitHub Action báo lỗi nếu fetch thất bại
+    process.exit(1); 
   }
 }
 
