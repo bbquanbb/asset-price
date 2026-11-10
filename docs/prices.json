@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-10T03:06:22.930Z",
+  "updatedAt": "2026-11-10T03:50:29.568Z",
   "source": "giavang.org",
   "unit": "VND/luong",
   "prices": {
     "sjc": {
       "name": "SJC",
       "mieng": {
-        "buy": 138500000,
-        "sell": 141500000
+        "buy": 137900000,
+        "sell": 140900000
       },
       "nhan": {
-        "buy": 137200000,
-        "sell": 141200000
+        "buy": 136700000,
+        "sell": 140700000
       },
-      "sourceUpdatedAt": "10:05:03 10/11/2026",
+      "sourceUpdatedAt": "10:50:04 10/11/2026",
       "stale": false
     },
     "doji": {
@@ -32,53 +32,53 @@
     "pnj": {
       "name": "PNJ",
       "mieng": {
-        "buy": 138500000,
-        "sell": 141500000
-      },
-      "nhan": {
-        "buy": 136700000,
+        "buy": 137900000,
         "sell": 140900000
       },
-      "sourceUpdatedAt": "10:05:03 10/11/2026",
+      "nhan": {
+        "buy": 136100000,
+        "sell": 140300000
+      },
+      "sourceUpdatedAt": "10:50:04 10/11/2026",
       "stale": false
     },
     "bao-tin-minh-chau": {
       "name": "Bảo Tín Minh Châu",
       "mieng": {
         "buy": 137000000,
-        "sell": 141500000
+        "sell": 140900000
       },
       "nhan": {
         "buy": 137000000,
         "sell": 141000000
       },
-      "sourceUpdatedAt": "10:05:03 10/11/2026",
+      "sourceUpdatedAt": "10:50:03 10/11/2026",
       "stale": false
     },
     "phu-quy": {
       "name": "Phú Quý",
       "mieng": {
-        "buy": 138000000,
-        "sell": 141500000
+        "buy": 137400000,
+        "sell": 140900000
       },
       "nhan": {
-        "buy": 138000000,
-        "sell": 141000000
+        "buy": 137400000,
+        "sell": 140400000
       },
-      "sourceUpdatedAt": "10:05:03 10/11/2026",
+      "sourceUpdatedAt": "10:50:04 10/11/2026",
       "stale": false
     },
     "mi-hong": {
       "name": "Mi Hồng",
       "mieng": {
-        "buy": 139700000,
-        "sell": 141200000
+        "buy": 139000000,
+        "sell": 140500000
       },
       "nhan": {
-        "buy": 139700000,
-        "sell": 141200000
+        "buy": 139000000,
+        "sell": 140500000
       },
-      "sourceUpdatedAt": "10:05:02 10/11/2026",
+      "sourceUpdatedAt": "10:50:03 10/11/2026",
       "stale": false
     }
   }
