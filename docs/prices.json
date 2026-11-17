@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-17T01:28:39.039Z",
+  "updatedAt": "2026-11-17T01:35:32.272Z",
   "source": "giavang.org",
   "unit": "VND/luong",
   "prices": {
     "sjc": {
       "name": "SJC",
       "mieng": {
-        "buy": 134500000,
-        "sell": 137500000
+        "buy": 134200000,
+        "sell": 137200000
       },
       "nhan": {
         "buy": 133300000,
         "sell": 137300000
       },
-      "sourceUpdatedAt": "08:25:05 17/11/2026",
+      "sourceUpdatedAt": "08:35:02 17/11/2026",
       "stale": false
     },
     "doji": {
@@ -32,14 +32,14 @@
     "pnj": {
       "name": "PNJ",
       "mieng": {
-        "buy": 134500000,
-        "sell": 137500000
+        "buy": 134200000,
+        "sell": 137200000
       },
       "nhan": {
-        "buy": 132700000,
-        "sell": 136900000
+        "buy": 132400000,
+        "sell": 136600000
       },
-      "sourceUpdatedAt": "08:25:03 17/11/2026",
+      "sourceUpdatedAt": "08:35:02 17/11/2026",
       "stale": false
     },
     "bao-tin-minh-chau": {
@@ -52,20 +52,20 @@
         "buy": 133300000,
         "sell": 137300000
       },
-      "sourceUpdatedAt": "08:25:05 17/11/2026",
+      "sourceUpdatedAt": "08:35:04 17/11/2026",
       "stale": false
     },
     "phu-quy": {
       "name": "Phú Quý",
       "mieng": {
-        "buy": 134500000,
+        "buy": 134300000,
         "sell": 137500000
       },
       "nhan": {
-        "buy": 134500000,
-        "sell": 137500000
+        "buy": 134300000,
+        "sell": 137300000
       },
-      "sourceUpdatedAt": "08:25:03 17/11/2026",
+      "sourceUpdatedAt": "08:35:05 17/11/2026",
       "stale": false
     },
     "mi-hong": {
@@ -78,7 +78,7 @@
         "buy": 136000000,
         "sell": 137500000
       },
-      "sourceUpdatedAt": "08:25:03 17/11/2026",
+      "sourceUpdatedAt": "08:35:03 17/11/2026",
       "stale": false
     }
   }
