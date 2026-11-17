@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T11:07:26.657Z",
+  "updatedAt": "2026-11-17T11:14:28.599Z",
   "source": "giavang.org",
   "unit": "VND/luong",
   "prices": {
@@ -13,7 +13,7 @@
         "buy": 133500000,
         "sell": 137500000
       },
-      "sourceUpdatedAt": "18:05:04 17/11/2026",
+      "sourceUpdatedAt": "18:10:04 17/11/2026",
       "stale": false
     },
     "doji": {
@@ -39,7 +39,7 @@
         "buy": 133000000,
         "sell": 137200000
       },
-      "sourceUpdatedAt": "18:05:04 17/11/2026",
+      "sourceUpdatedAt": "18:10:03 17/11/2026",
       "stale": false
     },
     "bao-tin-minh-chau": {
@@ -52,7 +52,7 @@
         "buy": 133500000,
         "sell": 137500000
       },
-      "sourceUpdatedAt": "18:05:05 17/11/2026",
+      "sourceUpdatedAt": "18:10:05 17/11/2026",
       "stale": false
     },
     "phu-quy": {
@@ -65,7 +65,7 @@
         "buy": 134300000,
         "sell": 137300000
       },
-      "sourceUpdatedAt": "18:05:04 17/11/2026",
+      "sourceUpdatedAt": "18:10:04 17/11/2026",
       "stale": false
     },
     "mi-hong": {
@@ -78,7 +78,7 @@
         "buy": 136200000,
         "sell": 137700000
       },
-      "sourceUpdatedAt": "18:05:03 17/11/2026",
+      "sourceUpdatedAt": "18:10:04 17/11/2026",
       "stale": false
     }
   }
