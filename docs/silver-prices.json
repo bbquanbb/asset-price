@@ -3,35 +3,35 @@
     "thuong_hieu": "Phú Quý",
     "san_pham": "BẠC MIẾNG PHÚ QUÝ 999 1 LƯỢNG",
     "don_vi": "VNĐ/Lượng",
-    "gia_mua_vao": 1302000,
-    "gia_ban_ra": 1342000
+    "gia_mua_vao": 1300000,
+    "gia_ban_ra": 1340000
   },
   {
     "thuong_hieu": "Phú Quý",
     "san_pham": "BẠC THỎI PHÚ QUÝ 999 10 LƯỢNG, 5 LƯỢNG",
     "don_vi": "VNĐ/Lượng",
-    "gia_mua_vao": 1302000,
-    "gia_ban_ra": 1342000
+    "gia_mua_vao": 1300000,
+    "gia_ban_ra": 1340000
   },
   {
     "thuong_hieu": "Phú Quý",
     "san_pham": "ĐỒNG BẠC MỸ NGHỆ PHÚ QUÝ 999",
     "don_vi": "VNĐ/Lượng",
-    "gia_mua_vao": 1302000,
-    "gia_ban_ra": 1532000
+    "gia_mua_vao": 1300000,
+    "gia_ban_ra": 1529000
   },
   {
     "thuong_hieu": "Phú Quý",
     "san_pham": "BẠC THỎI PHÚ QUÝ 999 1KILO",
     "don_vi": "VNĐ/Kg",
-    "gia_mua_vao": 34719913,
-    "gia_ban_ra": 35786577
+    "gia_mua_vao": 34666580,
+    "gia_ban_ra": 35733244
   },
   {
     "thuong_hieu": "Phú Quý",
     "san_pham": "BẠC 999 (MIẾNG - THANH - THỎI)",
     "don_vi": "VNĐ/Lượng",
-    "gia_mua_vao": 1262140,
+    "gia_mua_vao": 1260200,
     "gia_ban_ra": null
   }
 ]
