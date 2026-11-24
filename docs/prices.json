@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T06:25:11.295Z",
+  "updatedAt": "2026-11-24T06:28:33.800Z",
   "source": "giavang.org",
   "unit": "VND/luong",
   "prices": {
@@ -13,7 +13,7 @@
         "buy": 128800000,
         "sell": 134800000
       },
-      "sourceUpdatedAt": "13:20:04 24/11/2026",
+      "sourceUpdatedAt": "13:25:03 24/11/2026",
       "stale": false
     },
     "doji": {
