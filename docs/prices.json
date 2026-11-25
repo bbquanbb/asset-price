@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T03:56:35.227Z",
+  "updatedAt": "2026-11-25T04:00:48.508Z",
   "source": "giavang.org",
   "unit": "VND/luong",
   "prices": {
@@ -13,20 +13,20 @@
         "buy": 127900000,
         "sell": 133900000
       },
-      "sourceUpdatedAt": "10:55:03 25/11/2026",
+      "sourceUpdatedAt": "11:00:04 25/11/2026",
       "stale": false
     },
     "doji": {
       "name": "DOJI",
       "mieng": {
-        "buy": 128500000,
-        "sell": 133500000
+        "buy": 129100000,
+        "sell": 134100000
       },
       "nhan": {
         "buy": 128500000,
         "sell": 133500000
       },
-      "sourceUpdatedAt": "10:00:18 25/11/2026",
+      "sourceUpdatedAt": "11:00:26 25/11/2026",
       "stale": false
     },
     "pnj": {
@@ -39,20 +39,20 @@
         "buy": 126000000,
         "sell": 131500000
       },
-      "sourceUpdatedAt": "10:55:03 25/11/2026",
+      "sourceUpdatedAt": "11:00:03 25/11/2026",
       "stale": false
     },
     "bao-tin-minh-chau": {
       "name": "Bảo Tín Minh Châu",
       "mieng": {
         "buy": 128500000,
-        "sell": 133500000
+        "sell": 134100000
       },
       "nhan": {
         "buy": 128500000,
         "sell": 133500000
       },
-      "sourceUpdatedAt": "10:55:04 25/11/2026",
+      "sourceUpdatedAt": "11:00:35 25/11/2026",
       "stale": false
     },
     "phu-quy": {
@@ -65,20 +65,20 @@
         "buy": 128500000,
         "sell": 132500000
       },
-      "sourceUpdatedAt": "10:55:03 25/11/2026",
+      "sourceUpdatedAt": "11:00:02 25/11/2026",
       "stale": false
     },
     "mi-hong": {
       "name": "Mi Hồng",
       "mieng": {
-        "buy": 132000000,
-        "sell": 133500000
+        "buy": 132500000,
+        "sell": 134000000
       },
       "nhan": {
-        "buy": 132000000,
-        "sell": 133500000
+        "buy": 132500000,
+        "sell": 134000000
       },
-      "sourceUpdatedAt": "10:55:03 25/11/2026",
+      "sourceUpdatedAt": "11:00:02 25/11/2026",
       "stale": false
     }
   }
