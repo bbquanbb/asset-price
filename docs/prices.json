@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T09:21:28.731Z",
+  "updatedAt": "2026-11-28T09:28:29.698Z",
   "source": "giavang.org",
   "unit": "VND/luong",
   "prices": {
@@ -39,7 +39,7 @@
         "buy": 127500000,
         "sell": 133700000
       },
-      "sourceUpdatedAt": "16:20:05 28/11/2026",
+      "sourceUpdatedAt": "16:25:13 28/11/2026",
       "stale": false
     },
     "bao-tin-minh-chau": {
@@ -65,7 +65,7 @@
         "buy": 129800000,
         "sell": 133800000
       },
-      "sourceUpdatedAt": "16:20:03 28/11/2026",
+      "sourceUpdatedAt": "16:25:12 28/11/2026",
       "stale": false
     },
     "mi-hong": {
